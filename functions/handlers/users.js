@@ -242,7 +242,7 @@ exports.uploadImage = (req, res) => {
   });
   busboy.end(req.rawBody);
 };
-
+//Clear notifications
 exports.markNotificationsRead = (req, res) => {
   let batch = db.batch();
   req.body.forEach(notificationId => {

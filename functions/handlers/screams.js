@@ -1,5 +1,5 @@
 const { db } = require('../util/admin');
-
+//Get all screams
 exports.getAllScreams = (req,res) => {
     db
     .collection('screams')

@@ -1,5 +1,5 @@
 const { admin, db } = require('./admin');
-
+//Auth
 module.exports = (req, res, next) => {
   let idToken;
   if (
